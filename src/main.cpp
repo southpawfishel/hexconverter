@@ -196,6 +196,7 @@ int main(void) {
 
   InitWindow(screenWidth, screenHeight, "Hex Converter");
   GuiSetIconScale(2);
+  SetWindowState(FLAG_WINDOW_RESIZABLE);
 
   SetTargetFPS(360);
   //--------------------------------------------------------------------------------------
